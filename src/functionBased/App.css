@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 body {
@@ -67,4 +68,17 @@ body {
 .active-link {
   color: orangered;
   text-decoration: underline;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30vw;
+  justify-content: space-between;
 }
